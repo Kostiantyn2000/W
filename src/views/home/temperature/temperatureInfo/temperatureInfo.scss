@@ -1,0 +1,36 @@
+@import "../../../../sass/abstracts/variables";
+@import "../../../../sass/abstracts/mixins";
+.temperature-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-temperature {
+  font-weight: $weight-ultra-bold;
+  font-size: $size-text-info;
+  line-height: 114px;
+  text-align: center;
+  color: $color-btn-text;
+  margin-bottom: 17px;
+}
+
+.weather-will {
+  font-weight: $weight-bold;
+  font-size: $size-text;
+  line-height: 21px;
+  text-align: center;
+  color: $color-border-text;
+}
+
+.weather-today {
+  @include text(
+    $weight-bold,
+    $size-text-weather,
+    $line-height-weather,
+    $color-btn-text
+  );
+  text-align: center;
+  margin-bottom: 17px;
+}

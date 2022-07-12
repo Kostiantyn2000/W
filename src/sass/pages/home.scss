@@ -1,0 +1,11 @@
+@import "../base/typography";
+
+body {
+  font-family: $font-all-pages;
+  margin: 0;
+}
+
+.content-container {
+  background: url("../../assets/img/Cloud-background-one.jpg") 0 0/100% 100%
+    no-repeat;
+}

@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AMAA,OAAO,CAAC,uFAAI;AAAZ,OAAO,CAAC,uFAAI;ADAZ,iBAAiB;AEGjB,AAAA,cAAc,CAAC;ELmBb,WAAW,ECPC,GAAG;EDQf,SAAS,EChBS,IAAI;EDiBtB,WAAW,ECJS,IAAI;EDKxB,KAAK,ECrBU,OAAO;EIMtB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CACpB;;AAED,AAAA,eAAe,CAAC;ELQd,WAAW,ECPC,GAAG;EDQf,SAAS,ECbW,IAAI;EDcxB,WAAW,ECJS,IAAI;EDKxB,KAAK,ECrBU,OAAO;EIiBtB,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CACpB;;AGtBD,AAAA,IAAI,CAAC;EACH,WAAW,EJDI,OAAO,EAAE,UAAU;EIElC,MAAM,EAAE,CAAC;CACV;;AAED,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "../src/App.scss",
+        "../src/sass/main.scss",
+        "../src/sass/abstracts/_mixins.scss",
+        "../src/sass/abstracts/_variables.scss",
+        "../src/sass/abstracts/_functions.scss",
+        "../src/sass/base/_reset.scss",
+        "../src/sass/base/_typography.scss",
+        "../src/sass/components/title.scss",
+        "../src/sass/abstracts/_mixins.scss",
+        "../src/sass/abstracts/_variables.scss",
+        "../src/sass/pages/home.scss",
+        "../src/sass/base/_typography.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

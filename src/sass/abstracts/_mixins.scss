@@ -1,0 +1,27 @@
+@mixin btn-style(
+  $background,
+  $borderColor,
+  $borderRad,
+  $fontWeight,
+  $fontSize,
+  $colorText: black
+) {
+  margin: 0;
+  background: $background;
+  border: 2px solid $borderColor;
+  border-radius: $borderRad;
+  padding: 15px 27px;
+  margin-top: 42px;
+  margin-left: 42px;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: 21px;
+  color: $colorText;
+}
+
+@mixin text($weight, $size, $lineHeight, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $lineHeight;
+  color: $color;
+}

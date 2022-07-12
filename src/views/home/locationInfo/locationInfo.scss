@@ -1,0 +1,36 @@
+@import "../../../sass/abstracts/variables";
+@import "../../../sass/abstracts/mixins";
+.location-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 78px;
+  padding: 0;
+}
+
+.location-list__item {
+  @include text(
+    $weight-bold,
+    $size-text,
+    $line-height-text,
+    $color-border-text
+  );
+  text-align: center;
+  flex: 1 1 50%;
+}
+
+.mg-top {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mg-top::before {
+  content: "";
+  background: url(../../../assets/svg/img-location.svg) no-repeat;
+  height: 34px;
+  width: 25px;
+  display: inline-block;
+  padding-right: 9px;
+}

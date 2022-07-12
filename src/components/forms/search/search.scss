@@ -1,0 +1,12 @@
+@import "../../../sass/abstracts/variables";
+@import "../../../sass/abstracts/mixins";
+.btn-search {
+  @include btn-style(
+    $saidBar-btn-background,
+    $color-border-text,
+    $btn-search-radius,
+    $weight-bold,
+    $size-btn-search,
+    $color-btn-text
+  );
+}
